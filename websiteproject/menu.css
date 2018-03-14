@@ -1,0 +1,165 @@
+/* CSS Document */
+/*
+   Menu page styles
+   Author: Divyarama Kaja
+   Date:   10/17/2012
+   Filename:menu.css
+   */
+   body {
+	background-image:url('final4.jpg'); /*Background image retrieved from http://www.dek-d.com/board/view.php?id=968396 */
+}
+#head {
+	margin:0px auto;
+	border:6px #FFFFFF solid;
+	background-color:#F06;
+	border-radius: 30px;
+	line-height:3em;
+	text-align:center;
+	width:50%;
+	background-image:url('immi.jpg');
+	background-repeat:no-repeat;
+	background-size:140px 120px;
+	background-position:right;
+	color:#FF6;
+	font-family:"Times New Roman", Times, serif;
+	font-size:2.5em;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+h1 {
+	color:#FF6;
+	text-align:center;
+	font-size:30pt;
+}
+li {
+	display:inline;
+	padding-right:10px;
+}
+ul {
+	margin-left:350px;
+	display:block;
+	background-color:#9FC;
+	border:4px #F06 solid;
+	width:60%;
+	border-radius: 15px;
+	line-height:1.5em;
+	text-align:center;
+	margin:0px auto;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+a:hover {
+	color:#0CE;
+}
+a {
+	font-weight:normal;
+	font-family:"Times New Roman", Times, serif;
+	font-size:2em;
+	color:#F06;
+}
+h2 {
+	color:#FF6;
+	text-align:center;
+}
+.pa {
+	color:white;
+	text-indent:40px;
+	font-size:14pt;
+}
+#ba {
+	width:60%;
+	background-color:#F06;
+	margin:0px auto;
+	line-height:2em;
+	border:2px solid yellow;
+	margin-bottom:20px;
+	border-radius:30px;
+}
+#su {
+	width:60%;
+	background-color:#F06;
+	margin:0px auto;
+	line-height:2em;
+	border-radius:30px;
+	border:2px solid yellow;
+	margin-bottom:20px;
+	border-radius:30px;
+}
+#smoo {
+	width:60%;
+	background-color:#F06;
+	margin:0px auto;
+	line-height:2em;
+	border:2px solid yellow;
+	margin-bottom:20px;
+	border-radius:30px;
+}
+#wa {
+	width:60%;
+	background-color:#F06;
+	margin:0px auto;
+	line-height:2em;
+	border:2px solid yellow;
+	margin-bottom:20px;
+	border-radius:30px;
+}
+#po {
+	width:60%;
+	background-color:#F06;
+	margin:0px auto;
+	line-height:2.5em;
+	border:2px solid yellow;
+	margin-bottom:20px;
+	border-radius:30px;
+}
+#ca {
+	width:60%;
+	background-color:#F06;
+	margin:0px auto;
+	line-height:2em;
+	border:2px solid yellow;
+	margin-bottom:20px;
+	border-radius:30px;
+}
+img {
+	border-radius:30px;
+}
+#banana {
+	float:left;
+	clear:left;
+}
+#sun {
+	float:left;
+	clear:left;
+}
+#smoothie {
+	float:left;
+	clear:left;
+}
+#waffle {
+	float:left;
+	clear:left;
+}
+#pop {
+	float:left;
+	clear:left;
+}
+#cake {
+	float:left;
+	clear:left;
+}
+#box3 {
+	text-align:center;
+	border: 4px solid #FFFFFF;
+	width:60%;
+	margin:0px auto;
+	background-color:#F06;
+	margin-top:10px;
+	border-radius:20px;
+	color:#FF6;
+	margin-top:30px;
+	font-weight:bold;
+}
+

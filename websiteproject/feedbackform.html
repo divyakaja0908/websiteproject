@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<!-- 
+      Feedback Page
+      Author: Divyarama Kaja
+      Date: 10/17/2012  
+      Filename:feedbackform.html      
+      Supporting files: feedback.css,modernizr-1.5.js
+   -->
+
+<script src="modernizr-1.5.js" type="text/javascript"></script>
+<link href="feedback.css" rel="stylesheet" type="text/css" />
+<title>Feedback</title>
+</head>
+
+<body>
+<h1 id="head">Joe's Ice cream</h1>
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="menu.html">Menu</a></li>
+  <li><a href="aboutus.html">About us</a></li>
+  <li><a href="contactus.html">Contact us</a></li>
+  <li><a href="location.html">Locations</a></li>
+  <li><a href="feedbackform.html">Feedback</a></li>
+</ul>
+<script type="text/javascript">
+
+
+
+function validateForm()  
+<!-- This functioan validates the different input fields. Mandatory fileds cannot be empty and first/last name can only contain alphabets-->
+{
+var invalidCharacters = /[^A-Za-z]+/;
+<!-- validCharacters variable name looks for both smaller case and upper case alphabets-->
+       
+    if(document.form.Firstname.value=="")
+    {
+      alert("Please enter your Firstname");     
+    }
+else if(invalidCharacters.test(document.form.Firstname.value))
+    {
+      alert("Please enter only alphabets for First Name");      
+    }
+    else if(document.form.Lastname.value=="")
+    {
+      alert("Please enter your Lastname");     
+    }
+    else if(invalidCharacters.test(document.form.Lastname.value))
+    {
+      alert("Please enter only alphabets for Last Name");      
+    }
+else if(document.form.Email.value=="")
+    {
+      alert("Please enter your Email Adress");    
+    }
+}
+
+</script>
+<fieldset>
+  <h1>Feedback Form</h1>
+  <form name="form" id="myform" method="get" onsubmit="return validateForm()">
+    <p>
+      <label for="Firstname">First Name*</label>
+      <input name="Firstname" id="Firstname" type="text" size="25" maxlength="5" />
+    </p>
+    <br />
+    <p>
+      <label for="Lastname">Last Name*</label>
+      <input name="Lastname" id="Lastname" type="text" size="25" maxlength="25" />
+    </p>
+    <br />
+    <p>
+      <label for="Email">Email Address*</label>
+      <input name="Email" id="Email" type="text" size="40" maxlength="40" />
+    </p>
+    <br />
+    <p>What do you like the most about Joe's Icecream<br />
+      <br />
+      <label><br />
+        <input type="checkbox" name="like" value="Quality" />
+        quality</label>
+      <label>
+        <input type="checkbox" name="like" value="Price" />
+        price</label>
+      <label>
+        <input type="checkbox" name="like" value="Varieties" />
+        varieties</label>
+      <br />
+      <br />
+    </p>
+    <p>Would you like to get our coupons in the mail?<br />
+      <br />
+      <br />
+      <label>
+        <input type="radio" name="question" value="Yes" />
+        Yes</label>
+      <label>
+        <input type="radio" name="question" value="No" />
+        No</label>
+    </p>
+    <label><br />
+    </label>
+    <p>
+      <label>Please type your comments here<br />
+        <br />
+        <textarea cols="50" id="Comment" rows="5">
+</textarea>
+      </label>
+    </p>
+    <label><br />
+      <br />
+    </label>
+    <p>
+      <label>
+        <input type="submit" class="s" name="submit" value="Submit" />
+        <input type="reset" class="s" name="reset" value="Reset" />
+      </label>
+    </p>
+  </form>
+</fieldset>
+<div id="box3"><p> 111 constegan road, pa, 19087</p></div>
+</body>
+</html>

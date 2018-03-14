@@ -1,0 +1,115 @@
+/* CSS Document */
+/*
+   Home page styles
+   Author: Divyarama Kaja
+   Date:   10/17/2012
+   Filename:amsyles.css
+   Supporting Files: final4.jpg, immi.jpg*/
+
+#head {
+	margin:0px auto;
+	border:6px #FFFFFF solid;
+	background-color:#F06;
+	border-radius: 30px;
+	line-height:3em;
+	text-align:center;
+	width:50%;
+	background-image:url('immi.jpg');/*Image retrieved from http://colorfulbackground.blogspot.com/2012/07/cute-colorful-vector-illustration.html*/
+	background-repeat:no-repeat;
+	background-size:140px 120px;
+	background-position:right;
+	color:#FF6;
+	font-family:"Times New Roman", Times, serif;
+	font-size:2.5em;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+li {
+	display:inline;
+	padding-right:20px;
+}
+
+ul {
+	margin-left:350px;
+	display:block;
+	background-color:#9FC;
+	border:4px #F06 solid;
+	width:60%;
+	border-radius: 15px;
+	text-align:center;
+	 margin-top: -58.5em;
+
+
+}
+a:hover {
+	color:#0CE;
+}
+img:hover {
+	background-color:#F06;
+}
+a {
+	font-weight:normal;
+	font-family:"Times New Roman", Times, serif;
+	font-size:2em;
+	color:#F06;
+}
+#box1 {
+	border:6px #F06 solid;
+	width:70%;
+	padding:8px 8px 8px 8px;
+	text-indent:50px;
+	color:white;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:bold;
+	margin:0px auto;
+	line-height:3em;
+	border-radius:30px;
+	background-color:#6B00D7;
+	margin-top:20px;
+}
+h1 {
+	font-weight:normal;
+	font-family:"Times New Roman", Times, serif;
+	color:yellow;
+	font-weight:bold;
+}
+#box2 {
+	float: right;
+	clear:right;
+	margin-top:-70px;
+}
+
+#myxml{
+width: 70%;
+height:60em;
+padding-top:100px;
+padding-bottom:100px;
+padding-right:250px;
+padding-left: 250px;
+
+}
+iframe{
+
+width:10%;
+margin-top:-90px;
+margin-bottom:-100px;
+margin-left:60px;
+margin-right:60px;
+
+clear:both;
+}
+
+#box3 {
+     text-align:center;
+     border: 4px solid #FFFFFF;
+     width:60%;
+    
+     background-color:#F06;
+     margin-top:900px;
+     margin-left:400px;
+     border-radius:20px;
+     color:#FF6;
+    
+     font-weight:bold;
+
+}

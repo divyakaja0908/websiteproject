@@ -1,0 +1,199 @@
+/*
+   Locations page styles
+   Author: Divyarama Kaja
+   Date:   10/17/2012
+   Filename:locations.css
+   */
+   
+
+
+title {
+	color:#009;
+	margin:0px auto;
+	font-weight:bold;
+	font-size:24pt;
+	text-align:center;
+	display:block;
+}
+Locations {
+	background-image:url('final4.jpg'); /*Background image retrieved from http://www.dek-d.com/board/view.php?id=968396 */
+	font-size:14pt;
+}
+adress1 {
+background-image:url('penn.jpg');
+background-repeat:no-repeat;
+	display:block;
+	width:800px;
+	height:150px;
+	border:6px solid #FFF;
+	margin:0px auto;
+	height:150px;
+	margin-top:40px;
+	margin-bottom:30px;
+	background-color:#F06;
+	padding-top:40px;
+	padding-bottom:60px;
+	border-radius:30px;
+}
+adress2 {
+background-image:url('del.jpg');
+background-repeat:no-repeat;
+	display:block;
+	width:800px;
+	height:150px;
+	margin:0px auto;
+	margin-bottom:30px;
+	background-color:#F06;
+	padding-top:40px;
+	padding-bottom:60px;
+	border-radius:30px;
+	border:6px solid #FFF;
+}
+storehours {
+background-image:url('time.jpg');
+background-repeat:no-repeat;
+
+
+	display:block;
+	width:800px;
+	height:200px;
+	border-radius:30px;
+	border:6px solid #FFF;
+	margin:0px auto;
+	margin-bottom:30px;
+	background-color:#F06;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+
+adress1 he {
+	position:absolute;
+	top:110px;
+	left:720px;
+	color:white;
+}
+adress1 street {
+	position:absolute;
+	top:140px;
+	left:720px;
+	display:block;
+	color:white;
+}
+adress1 city {
+	position:absolute;
+	top:160px;
+	left:720px;
+	display:block;
+	color:white;
+}
+adress1 state {
+	position:absolute;
+	top:180px;
+	left:720px;
+	display:block;
+	color:white;
+}
+adress1 zip {
+	position:absolute;
+	top:200px;
+	left:720px;
+	display:block;
+	color:white;
+}
+adress1 phoneno {
+	position:absolute;
+	top:220px;
+	left:720px;
+	display:block;
+	color:white;
+}
+adress2 he {
+	position:absolute;
+	top:380px;
+	left:720px;
+	color:white;
+}
+adress2 street {
+	position:absolute;
+	top:410px;
+	left:720px;
+	display:block;
+	color:white;
+}
+adress2 city {
+	position:absolute;
+	top:430px;
+	left:720px;
+	display:block;
+	color:white;
+}
+adress2 state {
+	position:absolute;
+	top:450px;
+	left:720px;
+	display:block;
+	color:white;
+}
+adress2 zip {
+	position:absolute;
+	top:470px;
+	left:720px;
+	display:block;
+	color:white;
+}
+adress2 phoneno {
+	position:absolute;
+	top:490px;
+	left:720px;
+	display:block;
+	color:white;
+}
+storehours store {
+	position:absolute;
+	top:710px;
+	left:700px;
+	color:white;
+}
+storehours day1 {
+	position:absolute;
+	top:730px;
+	left:700px;
+	color:white;
+}
+storehours day2 {
+	position:absolute;
+	top:750px;
+	left:700px;
+	color:white;
+}
+storehours day3 {
+	position:absolute;
+	top:770px;
+	left:700px;
+	color:white;
+}
+storehours day4 {
+	position:absolute;
+	top:790px;
+	left:700px;
+	color:white;
+}
+storehours day5 {
+	position:absolute;
+	top:820px;
+	left:700px;
+	color:white;
+}
+storehours day6 {
+	position:absolute;
+	top:840px;
+	left:700px;
+	color:white;
+}
+storehours day7 {
+	position:absolute;
+	top:860px;
+	left:700px;
+	color:white;
+}
